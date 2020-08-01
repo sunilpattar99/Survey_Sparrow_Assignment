@@ -27,7 +27,7 @@ h1{
     font-weight: bold;
     padding-left: 15%;
     padding-top: 6%;
-    /* width: 50%; */
+    
 }
 
 ul{
@@ -154,7 +154,7 @@ li button:hover{
     font-size: 13px;
     margin: 5px 5px;
 }
-.startConvoBtn{
+#startConvoBtn{
     outline: none;
     border: none;
     background-color: #13a884;
