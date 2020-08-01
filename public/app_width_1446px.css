@@ -1,0 +1,166 @@
+@media screen and (max-width:1446px){
+    #root{
+        background-size: 100% 100%;
+        height: 100vh;
+        margin: 3px auto 0;
+        position: relative;
+    }
+    h1{
+        font-size: 2em;
+        width: 200px;
+    }
+    .Desc{
+        font-size: 3em;
+        padding-left: 12%;
+        padding-top: 6%;
+    }
+    .whenShrink{
+        display: block;
+    }
+    ul{
+        position: relative;
+        background-color: #4c5aa1;
+        padding:10px 0 10px 5px;
+        width: 180px;
+        border-radius: 10px;
+        text-align: center;
+        margin-right: 20px;
+        display: none;
+    }
+    li{
+        float: none;
+        display: block;
+        padding: 5 0px 5 0px;
+    }
+    
+    li button:hover{
+        background-color: transparent;
+        color:white;
+    }
+    .active{
+        background-color: transparent;
+        color: white;
+    }
+    .chatbtn{
+        height: 50px;
+        width: 50px;
+        top: 90%;
+        left: 92%; 
+    }
+    .afterclickBtn{
+        height: 40px;
+        width: 40px;
+        top: 90%;
+        left: 92%; 
+    }
+    .square{
+        height: 200px;
+        left:78%; 
+        top: 68%;
+        width: 240px;
+    }
+    .innerSquare{
+        margin: 5px;
+        padding: 9px;
+        height: 50px;
+    }
+    .innerSquare h2{
+        font-weight: 400;
+        margin: 5px 5px;
+        font-size: 14px;
+    }
+    .innerSquare p{
+        font-size: 10px;
+        margin: 5px 5px;
+    }
+    .startConvoBtn{
+        padding: 5px 5px 5px 5px;
+        font-size: 12px;
+        border-radius:50px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .squareChat{
+        left:77%; 
+        top: 43%;
+        width: 255px;
+        
+    }
+    .innerSquareChat{
+        margin: 5px;
+        padding: 8px;
+    }
+    .innerSquareChat h2{
+        font-size: 12px;
+        margin: 5px 5px;
+    }
+    .innerSquareChat p{
+        font-size: 10px;
+        margin: 5px 5px;
+    }
+    .chatTextWindow{
+        height: 30vh;
+        overflow-y: auto;
+        margin-bottom: 10px;
+    }
+    .rightChat{
+        font-size: 8px;
+        width: 40%;
+        height: 28px;
+        margin-left: 8.2rem;
+    }
+    .rightChat::after{
+        margin-top: -5px;
+        margin-left: 47px;
+    }
+    
+    .profileCircle{
+        background-color: #4c5aa1;
+        width: 20px;
+        height: 20px;
+        margin-left: 8px;
+    }
+    .leftChat{  
+        font-size: 8px;
+        width: 40%;
+        height: 28px;
+        margin-left: 35px;
+    }
+    
+    .getInput{
+        width: 100%;
+        border-top: 1px gray solid;
+    }
+    .getInput input{
+        height: 30px;
+        padding-left: 15px;
+        width: 15em;
+    }
+    #whenShrink{
+        display: block;
+        float:right;
+        margin-right:20px;
+        margin-top:-30px;   
+    }
+
+    #chk:checked + ul{
+        position: relative;
+        background-color: #4c5aa1;
+        padding:10px 0 10px 5px;
+        width: 180px;
+        border-radius: 10px;
+        text-align: center;
+        margin-right: 20px;
+        display: block;
+        animation: shrinkDisplay 500ms ease-in-out 0s ;
+    }
+    @keyframes shrinkDisplay {
+        0%{
+            transform: scale(0);
+        }
+        100%{
+            transform: scale(1);
+        }
+    }
+
+}
