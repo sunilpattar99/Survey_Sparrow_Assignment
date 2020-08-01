@@ -1,0 +1,26 @@
+@media (max-width:768px){
+    .chatbtn{
+        height: 50px;
+        width: 50px;
+        top: 92%;
+        left: 89%; 
+    }
+    .afterclickBtn{
+        height: 40px;
+        width: 40px;
+        top: 92%;
+        left: 89%; 
+    }
+    .square{
+        height: 200px;
+        left:64%; 
+        top: 71%;
+        width: 240px;
+    }
+    .squareChat{
+        left:61%; 
+        top: 46%;
+        width: 255px;
+        
+    }
+}
